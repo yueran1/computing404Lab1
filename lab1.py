@@ -1,7 +1,6 @@
 import requests
 
-response2= requests.get('http://google.ca')
-response =requests.post('http://ccid-eddieantonio.rhcloud.com/yueran1')
-print response.status_code
+response= requests.get('https://github.com/yueran1/computing404Lab1/raw/master/lab1.py')
 
-print requests.__version__
+print response.text
+
